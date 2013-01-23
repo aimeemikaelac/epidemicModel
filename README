@@ -1,0 +1,10 @@
+To run this code, change matlab's working directory to this directory,
+and then run epidemicModel with a single argument. This argument is the
+number of timesteps the model will run, and at the moment, should not
+exceed 506. A scatterplot will be displayed showing the locations of the
+different nodes and infection status. Blue nodes are susceptible, red nodes
+are infected and green nodes are cured. The status array will be displayed
+on completion. The first column is the ending status of the node, in an ascii
+code, the second column is the time that the node will stop being infected,
+the third column is the time that the node became infected and the fourth
+column is the time that the node became cured.
